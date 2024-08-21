@@ -1,0 +1,322 @@
+header{
+    padding: 15px;
+    color: white;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    height: 100vh;
+    background-image: url(images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h1{
+    font-family: 'Dancing Script';
+}
+
+.navbar .content i:hover{
+    transition: 0.3s;
+    color: #ffc107;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+ul{
+    margin-right: 25%;
+    font-size: 18px;
+}
+
+ul li a.active{
+    color: #ffc107 !important;
+}
+
+ul li a:hover{
+    color: #ffc107 !important;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.slider{
+    margin-top: 150px !important;
+}
+
+ol{
+    bottom: -280px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+ol li{
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}
+
+ol li.active{
+    background-color: #ffc107 !important;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.offer1, .offer2{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.offer1:hover img, .offer2:hover img{
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transform: scale(1.09);
+    -webkit-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    -o-transform: scale(1.09);
+}
+
+.offer1 h5, .offer2 h5{
+    font-size: 25px !important;
+    font-family: 'Dancing Script';
+}
+
+.offer1 h6, .offer2 h6{
+    font-family: 'Dancing Script';
+}
+
+.offer1 h6 span, .offer2 h6 span{
+    font-size: 40px;
+}
+
+.menu .heading{
+    font-family: 'Dancing Script';
+    font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.menu .row{
+    gap: 30px;
+}
+.menu .row .price{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.menu .row .col-4 {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #222831;
+    width: 350px;
+    padding: 0 !important;
+}
+
+.menu .row .col-4:hover .image img{
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.col-4 .image img{
+    max-width: 100% !important;
+    max-height: 145px !important;
+}
+
+.col-4 .image{
+    display: flex;
+    justify-content: center;
+    background-color: #f1f2f3;
+    border-bottom-left-radius: 50px;
+    width: 100%;
+    height: 215px;
+    padding: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.col-4{
+    flex-direction: column !important;
+}
+.col-4 .content{
+    padding: 25px;
+}
+
+.booking{
+    padding: 50px;
+}
+.booking form input, .booking form select{
+    margin: 20px 0 !important;
+    height: 50px;
+}
+
+.booking form input:focus, .booking form select:focus{
+    box-shadow: 0 0 0 3px #ffc1077d;
+}
+
+.reviews .container .item .image::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -8px;
+    left: 50%;
+    background-color: #ffc107;
+    transform: translateX(-50%) rotate(45deg);
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    -moz-transform: translateX(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) rotate(45deg);
+    -o-transform: translateX(-50%) rotate(45deg);
+    z-index: -1;
+}
+
+footer .container .row .col-md-4 .icons i:hover{
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    cursor: pointer;
+    color: #ffc107;
+}
+
+footer .container .row .contact p:hover{
+    cursor: pointer;
+    color: #ffc107;
+}
+.reviews .content{
+    margin-top: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc(100% / 2 - 20px);
+    column-gap: 20px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+@media (max-width:992px){
+    .content{
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    ul{
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 992px){
+    br{
+        display: none;
+    }
+}
+
+@media (max-width: 550px){
+    ol{
+        bottom: -190px !important; 
+    }
+}
+
+@media (max-width: 504px){
+    .offer1, .offer2{
+        justify-content: center;
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 989px) and (min-width: 770px){
+    .offer1, .offer2{
+        text-align: center;
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width:767px){
+    .info .container .row{
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
+
+    footer .container .row .col-md-4{
+        margin-bottom: 30px;
+    }
+
+    .reviews .content{
+        grid-auto-flow: row;
+        grid-auto-columns: 100%;
+        row-gap: 20px; 
+        padding: 20px;
+        padding-bottom: 30px;
+    }
+    .reviews .buttons{
+        display: none !important;
+    }
+
+    .copy1, .copy2{
+        display: none !important;
+    }
+
+    .booking .row{
+        gap: 30px;
+    }
+}
+
+@media(max-width: 600px){
+    .info{
+        padding: 40px !important;
+        padding-top: 60px !important;
+    }
+
+    .menu{
+        padding: 15px !important;
+    }
+
+    .offer{
+        padding: 8px !important;
+        padding-top: 50px !important;
+    }
+
+    .booking{
+        padding: 30px !important;
+        padding-top: 50px !important;
+    }
+}
