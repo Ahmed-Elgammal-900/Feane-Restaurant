@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-image: url(images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: white;
+
+}
+h1{
+    font-family: 'Dancing Script';
+}
+
+.navbar .content i:hover{
+    transition: 0.3s;
+    color: #ffc107;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+ul{
+    margin-right: 25%;
+    font-size: 18px;
+}
+
+ul li a.active{
+    color: #ffc107 !important;
+}
+
+ul li a:hover{
+    color: #ffc107 !important;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.booking{
+    padding: 50px;
+}
+
+.booking form input, .booking form select{
+    margin: 20px 0 !important;
+    height: 50px;
+}
+
+.booking form input:focus, .booking form select:focus{
+    box-shadow: 0 0 0 3px #ffc1077d;
+}
+
+footer .container .row .col-md-4 .icons i:hover{
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    cursor: pointer;
+    color: #ffc107;
+}
+
+footer .container .row .contact p:hover{
+    cursor: pointer;
+    color: #ffc107;
+}
+
+@media (max-width:992px){
+    .content{
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    ul{
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 767px){
+
+    .booking .row{
+        gap: 30px;
+    }
+
+    footer .container .row .col-md-4{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 600px){
+    .booking{
+        padding: 30px !important;
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+}
